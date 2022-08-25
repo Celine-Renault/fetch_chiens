@@ -10,5 +10,6 @@ function afficher() {
         return response.json();
     }).then(function(data){
             photoChien.innerHTML =`<img src="${data.message}"/>`;
+            // photoChien.style.backgroundImage = "url("+data.message+")";
         })
 }
