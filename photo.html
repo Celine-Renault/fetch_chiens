@@ -5,36 +5,36 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Page photos des chiens</title>
-				<script src="https://kit.fontawesome.com/564e987331.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/564e987331.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-
 	</head>
 	<body>
 		<div>
 			<header class="container-fluid w-75">
-				<nav class="navbar navbar-expand-lg bg-light">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
 					<div class="container-fluid">
-					
-							<a class="navbar-brand" href="#">
-
-						<!--<i class="fa-solid fa-paw-simple logo"></i>-->
-							<img src="assets/images/logo.png" class="logo" alt="logo">&emsp;Nos chiens</a>
+						<i class="fa-solid fa-paw"></i>
+						<a class="navbar-brand title" href="index.html">&emsp;dogs</a>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+									<a class="nav-link active d-flex justify-content-end" aria-current="page" href="index.html">Accueil</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="photo.html">Photos</a>
+									<a class="nav-link active d-flex justify-content-end" aria-current="page" href="photo.html">Photos</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</nav>
+
 
 			</header>
 		</div>
@@ -42,7 +42,7 @@
 		<main class="mt-5">
 			<section class="row d-flex justify-content-center">
 				<div class="col-12 col-md-4">
-					<button class="btn btn-primary w-50 mx-auto d-block m-4" id="btn-photo">Afficher</button>
+					<button class="btn btn-afficher w-50 mx-auto d-block m-4" id="btn-photo">Afficher</button>
 					<div class="card m-1 border-0 image-chien" id="chien-photo"></div>
 				</div>
 			</section>
